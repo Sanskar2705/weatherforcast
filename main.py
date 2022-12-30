@@ -2,11 +2,11 @@ import requests
 from twilio.rest import Client
 
 
-api_key= "9ad9460d790c7ac47c6b5d0fa0d7bf42"
+api_key= "*************************"
 OWM_Endpoint ="https://api.openweathermap.org/data/2.5/forecast"
 
-account_sid ="ACd7a3849a3dd17292a8759effb97cb0ee"
-auth_token ="c3bd75796714d9d8e3a4c904ed3446eb"
+account_sid ="*****************************"
+auth_token ="*******************************"
 
 weather_params ={
     "lat": -14.452114,
@@ -36,6 +36,6 @@ if will_rain:
         .create(
         body=f"weather is sunny today,the temp is: {condition_code}  ",
         from_='+18318511615',
-        to='+917984399359'
+        to='+***********'
     )
     print(message.status)
